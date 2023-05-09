@@ -29,13 +29,16 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 10px black;
     background-position-y: -60px;
+
+    transition: width .3s, height .3s;
 }
-main> div#imagem{
+main div#imagem{
     border-radius: 10px 10px 0px 0px;
     background-image: url(../imagens/pexels-rifqi-ramadhan-884547.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40%;
+    height: 240px;
+    display: block;
 }
 
 h1{
@@ -50,6 +53,7 @@ p{
 
 #conteudo{
     padding: 10px;
+    display: block;
 }
 
 .entrada{

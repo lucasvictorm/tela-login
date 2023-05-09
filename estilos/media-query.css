@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    main{
+        width: 80vw;
+    }
+    main div#imagem{
+        float: left;
+        width: 20%;
+        height: 100%;
+    }
+    #conteudo{
+        float: right;
+        width: 80%;
+        transform: translateY(50%);
+    }
+}
